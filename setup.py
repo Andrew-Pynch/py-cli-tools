@@ -29,7 +29,7 @@ setup(
     install_requires=[],
     entry_points={
         "console_scripts": [
-            "pyclitools=pyclitools.__main__:main",
+            "pyclitools=pyclitools.__main__",
         ]
     },
 )
