@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+py_cli_tools.egg-info/PKG-INFO
+py_cli_tools.egg-info/SOURCES.txt
+py_cli_tools.egg-info/dependency_links.txt
+py_cli_tools.egg-info/entry_points.txt
+py_cli_tools.egg-info/top_level.txt
+pyclitools/__init__.py
+pyclitools/__main__.py
