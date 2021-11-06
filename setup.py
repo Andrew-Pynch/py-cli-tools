@@ -11,7 +11,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="py-cli-tools",
-    version="1.0.1",
+    version="1.0.2",
     description="Functions that I found myself writing in different projects over and over again go here",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -29,7 +29,7 @@ setup(
     install_requires=[],
     entry_points={
         "console_scripts": [
-            "pyclitools=pyclitools.__main__",
+            "pyclitools=pyclitools.__main__:main",
         ]
     },
 )
